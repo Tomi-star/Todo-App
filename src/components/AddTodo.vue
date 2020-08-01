@@ -21,7 +21,7 @@ export default {
     methods: {
         addTodo(e) {
             if(this.title == ""){
-                alert("Enter what you want to do!")
+                alert("Add what you want to do!")
             } else {
                 e.preventDefault();
             const newTodo = {
